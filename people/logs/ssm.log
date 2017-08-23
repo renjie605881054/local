@@ -1,0 +1,31 @@
+[INFO] [2017-08-23 10:23:36][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2017-08-23 10:23:36][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Aug 23 10:23:36 CST 2017]; root of context hierarchy
+[INFO] [2017-08-23 10:23:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2017-08-23 10:23:36][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-08-23 10:23:36][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-08-23 10:23:36][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 570 ms
+[INFO] [2017-08-23 10:23:36][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2017-08-23 10:23:36][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Aug 23 10:23:36 CST 2017]; parent: Root WebApplicationContext
+[INFO] [2017-08-23 10:23:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2017-08-23 10:23:36][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-08-23 10:23:37][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser] onto handler 'userController'
+[INFO] [2017-08-23 10:23:37][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser.*] onto handler 'userController'
+[INFO] [2017-08-23 10:23:37][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser/] onto handler 'userController'
+[INFO] [2017-08-23 10:23:37][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 303 ms
+[WARN] [2017-08-23 10:23:46][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/people/] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2017-08-23 10:24:02][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/people/] in DispatcherServlet with name 'SpringMVC'
+[WARN] [2017-08-23 10:24:49][org.springframework.web.servlet.PageNotFound]No mapping found for HTTP request with URI [/people/] in DispatcherServlet with name 'SpringMVC'
+[INFO] [2017-08-23 10:30:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization started
+[INFO] [2017-08-23 10:30:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing Root WebApplicationContext: startup date [Wed Aug 23 10:30:29 CST 2017]; root of context hierarchy
+[INFO] [2017-08-23 10:30:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2017-08-23 10:30:29][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+[INFO] [2017-08-23 10:30:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-08-23 10:30:29][org.springframework.web.context.ContextLoader]Root WebApplicationContext: initialization completed in 509 ms
+[INFO] [2017-08-23 10:30:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization started
+[INFO] [2017-08-23 10:30:29][org.springframework.web.context.support.XmlWebApplicationContext]Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Aug 23 10:30:29 CST 2017]; parent: Root WebApplicationContext
+[INFO] [2017-08-23 10:30:29][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mvc.xml]
+[INFO] [2017-08-23 10:30:29][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2017-08-23 10:30:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser] onto handler 'userController'
+[INFO] [2017-08-23 10:30:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser.*] onto handler 'userController'
+[INFO] [2017-08-23 10:30:29][org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping]Mapped URL path [/user/showUser/] onto handler 'userController'
+[INFO] [2017-08-23 10:30:29][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 247 ms
