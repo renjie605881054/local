@@ -1,13 +1,22 @@
 package com.people.pojo;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable{
 
 	private String userName;
 	private String userId;
 	private String email;
 	private String password;
 
-
+	
+	public User(){
+		
+	}
+	
+	public User(String userName){
+		this.userName = userName;
+	}
 	public String getUserName() {
 		return userName;
 	}
