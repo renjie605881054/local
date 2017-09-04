@@ -14,7 +14,7 @@ import com.rabbitmq.client.QueueingConsumer;
 import com.rabbitmq.client.ShutdownSignalException;
 
 
-public class testMq {
+public class TestMq {
 
 	final static String QNAME = "people-queues";
 	final static String USERNAME = "renjie";
