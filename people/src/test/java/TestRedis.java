@@ -13,7 +13,7 @@ public class TestRedis {
 	}
 	public static void getConnection(){
 		redis = new Jedis("47.91.236.230", 6379);
-		System.out.println("服务正在运行" + redis.ping());
+		System.out.println("鏈嶅姟姝ｅ湪杩愯" + redis.ping());
 		
 	}
 	public static void close(){
