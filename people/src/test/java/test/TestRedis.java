@@ -1,3 +1,4 @@
+package test;
 import redis.clients.jedis.Jedis;
 
 
@@ -13,6 +14,7 @@ public class TestRedis {
 	}
 	public static void getConnection(){
 		redis = new Jedis("47.91.236.230", 6379);
+		redis.auth("18686251078");
 		System.out.println("服务正在运行" + redis.ping());
 		
 	}
@@ -27,11 +29,12 @@ public class TestRedis {
 		redis.append("name", " is a student");
 		System.out.println(redis.get("name"));
 		
-		redis.del("name");
-		System.out.println(redis.get("name"));
+		//redis.del("name");
+		//System.out.println(redis.get("name"));
 		
 		redis.mset("name","TT","age","20");
 		System.out.println(redis.get("name") + "-" + redis.get("age"));
+		
 	}
 
 }

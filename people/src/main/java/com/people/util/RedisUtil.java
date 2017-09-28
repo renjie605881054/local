@@ -1,3 +1,4 @@
+package com.people.util;
 
 public class RedisUtil {
 
