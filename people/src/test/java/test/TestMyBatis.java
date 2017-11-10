@@ -2,7 +2,6 @@ package test;
 import javax.annotation.Resource;
 
 import org.apache.log4j.Logger;
-import org.junit.Test;
 import org.springframework.test.context.ContextConfiguration;
 
 import com.alibaba.fastjson.JSON;
@@ -18,7 +17,6 @@ public class TestMyBatis {
 	@Resource
 	private UserService userService;
 
-	@Test
 	public void test1() {
 		User user = userService.getUserById(1);
 		// System.out.println(user.getUserName());
